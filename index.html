@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CampusFix AI</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #f4f6f8;
+    }
+    .box {
+      width: 400px;
+      margin: 80px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    button {
+      background: #4285F4;
+      color: white;
+      padding: 10px;
+      border: none;
+      width: 100%;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="box">
+  <h2>CampusFix AI</h2>
+  <p>Report campus issues using AI</p>
+
+  <input type="text" id="issue" placeholder="Describe the issue"
+         style="width:100%; padding:8px;"><br><br>
+
+  <button onclick="analyzeIssue()">Analyze Issue</button>
+
+  <p id="result"></p>
+</div>
+
+<script>
+function analyzeIssue() {
+  document.getElementById("result").innerHTML =
+    "<b>Category:</b> Infrastructure<br><b>Priority:</b> High";
+}
+</script>
+
+</body>
+</html>
