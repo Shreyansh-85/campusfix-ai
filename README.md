@@ -1,13 +1,15 @@
-🎓 CampusFix AI
+**🎓 CampusFix AI**
 
 A simple web application prototype to report campus issues with AI-style categorization and priority.
 
 CampusFix AI allows students or campus users to describe problems (like maintenance or infrastructure issues) and receive a category and priority for the issue.
 
-📸 Preview
+**📸 Preview**
+
 ![CampusFix AI Preview](assets/preview.png)
 
-🚀 Features
+
+**🚀 Features**
 
 Simple and intuitive UI
 
